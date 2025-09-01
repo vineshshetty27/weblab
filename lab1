@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html language="em">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+<title>My First Web Page</title>
+</head>
+<body>
+<h1><marquee>Basic HTML Tags.</marquee></h1>
+<h2>Vinesh V Shetty 4MW23CS186 </h2>
+<h1>WEB TECHNOLOGY LAB-BCSL504</h1>
+<h2>WEB TECHNOLOGY LAB-BCSL504</h2>
+<h3>WEB TECHNOLOGY LAB-BCSL504</h3>
+<h4>WEB TECHNOLOGY LAB-BCSL504</h4>
+<h5>WEB TECHNOLOGY LAB-BCSL504</h5>
+<h6>WEB TECHNOLOGY LAB-BCSL504</h6>
+<p>the p tag defines paragraph.Browswes automatically add a single blank line before and after each p elements</p>
+<hr>
+<p>the br tag inserts a single line break.The <br> tag is useful for writing address or poems.
+the <br> tag is empty tag which means that it has no end tag.</p>
+<blockquote>the blockquote tag specifies a section that is quoted from another source.Browsers usually indent blockquote elements </blockquote>
+<pre>this is preformatted text.It preserves spaces and line break.</pre>
+<p>this is <b> bold </b> text.</p>
+<p>this is <i> italic </i> text.</p>
+<p>this is <u> underline</u> text.</p>
+<p>this is <sub> subscript </sub> text.</p>
+<p>this is <sup> superscript </sup> text.</p>
+<p>this is <em> emphasized</em> text.</p>
+<p>this is <strong> strong</strong> text.</p>
+</body>
+</html>
