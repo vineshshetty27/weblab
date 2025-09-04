@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+<title>CIE1</title>
+<style>
+     body{
+        background-color: blue;
+color: black;
+text-align: center;
+}
+</style>
+</head>
+<body>
+<h1><marquee direction="left">Web technology</marquee></h1>
+<h2><marquee direction="right">BCSL504</marquee></h2>
+<img src="https://tse2.mm.bing.net/th/id/OIP.Fd6Y0ftNbvABYsagjUXYwgHaDd?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" class"img" width="300" height="300">
+
+<a href="https://www.w3schools.com"> link of w3schools</a>
+<h3 style="color:blue">heading 1</h3>
+<h4 style="color:red">heading 2</h4>
+<h5 style="color:orange">heading 3</h5>
+
+<p> This is <mark>highlighted </mark> text</p>
+<p> this del tag is used to delete <del> word </del> or sentence </p>
+
+</body>
+</html>
+
+
+
