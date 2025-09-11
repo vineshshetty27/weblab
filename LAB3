@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset = "UTF-8">
+<meta name = "viewpoint" content = "width=device-width,initial-scale=1.0">
+<title>Styled Page Example</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+<h2>Welcome to My Styled Page</h2>
+<hr>
+<h3> About This Page</h3>
+<p>This is a sample paragraph that demonstrates how the first line is Styled diggrently</p>
+<p class="highlight">This paragraph is highlightned with a background colour and a dashed border</p>
+<span>This span element is styled with the child selector</span>
+<p>The following image and time leements re grouped and have block display.</p>
+<img src="https://img.freepik.com/premium-photo/best-amazing-wonderful-this-photo-take-this-picture-your-work-ai-generated-top-lovely-photo_1169327-105130.jpg" alt="Sample Image"width="200">
+<time datetime="2025-09-11">September 11,2025</time>
+<p>Visit<ahref="https://www.youtube.com"target="_blank">this link</a>to see how the attribute selector works with hover effect </p>
+</div>
+</body>
+</html>
