@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Buzz - College Events</title>
+    <style>
+        /* Global styles for the body */
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        /* Navigation styles */
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main content layout using Flexbox */
+        main {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        /* Section (main article area) styles */
+        section {
+            flex: 2;
+            margin-right: 20px;
+        }
+
+        /* Article styles */
+        article {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        article h2 {
+            color: #1a1a1a;
+            font-size: 1.8em;
+        }
+
+        /* Aside (sidebar) styles */
+        aside {
+            flex: 1;
+            background-color: #c6c6e6; /* Light purple-grey background */
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        /* Figure and Image styles */
+        figure {
+            margin: 0;
+            text-align: center;
+        }
+
+        figure img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        figcaption {
+            font-style: italic;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        /* Table styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Campus Buzz - College Events</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Cultural</a></li>
+            <li><a href="#">Technical</a></li>
+            <li><a href="#">Sports</a></li>
+            <li><a href="#">Workshops</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <article>
+                <h2>Annual Cultural Fest 2025: “Rhythm & Roots”</h2>
+                <p>Get ready for a 3-day extravaganza filled with music, dance, drama, and fun! This year's cultural fest promises celebrity performances, inter-college competitions, and unforgettable memories.</p>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf" alt="Cultural Fest">
+                    <figcaption>
+                        Students performing during last year's cultural fest
+                    </figcaption>
+                </figure>
+            </article>
+
+            <article>
+                <h2>TechXplore 2025: National Level Technical Symposium</h2>
+                <p>Join the most awaited technical fest of the year! Participate in coding marathons, paper presentations, AI workshops, and startup pitching sessions.</p>
+                <table>
+                    <tr>
+                        <th>Event</th>
+                        <th>Date</th>
+                        <th>Venue</th>
+                    </tr>
+                    <tr>
+                        <td>Hackathon</td>
+                        <td>12 Oct 2025</td>
+                        <td>Innovation Lab</td>
+                    </tr>
+                    <tr>
+                        <td>AI Workshop</td>
+                        <td>13 Oct 2025</td>
+                        <td>Seminar Hall A</td>
+                    </tr>
+                    <tr>
+                        <td>Paper Presentation</td>
+                        <td>14 Oct 2025</td>
+                        <td>Auditorium</td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+
+        <aside>
+            <h3>Quick Info</h3>
+            <p><strong>Location:</strong> Green Valley College Campus</p>
+            <p><strong>Contact:</strong> events@gvcollege.edu</p>
+
+            <h3>Upcoming Events</h3>
+            <ul>
+                <li>Freshers' Day - 10 Oct 2025</li>
+                <li>Inter-College Debate - 11 Oct 2025</li>
+                <li>Hackathon - 12 Oct 2025</li>
+                <li>Cultural Fest - 20–22 Oct 2025</li>
+            </ul>
+
+            <h3>Weather Update</h3>
+            <p>Clear skies with a pleasant breeze. High of 28°C, low of 18°C — perfect for outdoor events!</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Green Valley College. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
